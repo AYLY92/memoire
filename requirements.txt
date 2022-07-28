@@ -8,3 +8,4 @@ Ipython==7.16.1
 hydroeval==0.1.0
 plotly==5.1.0
 keras==2.6.0
+tensorflow ==2.6.2
