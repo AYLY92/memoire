@@ -5,12 +5,20 @@ name = "pypi"
 
 [packages]
 streamlit = "*"
-spacy = "*"
-spacy-streamlit = "*"
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"
+matplotlib = "*"
+seaborn = "*"
+Ipython = "*"
+hydroeval = "*"
+plotly = "*"
+keras = "*"
+
 st-annotated-text = "*"
 
 [dev-packages]
 black = "*"
 
 [requires]
-python_version = "3.8"
+python_version = "3.6.13"
