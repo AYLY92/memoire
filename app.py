@@ -6,7 +6,7 @@
 import streamlit as st
 import numpy as np # linear algebra
 import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
-import statsmodels
+#import statsmodels
 
 import seaborn as sns # Visualization
 import matplotlib.pyplot as plt # Visualization
@@ -17,7 +17,7 @@ import plotly.offline as py
 import plotly.graph_objs as go
 from plotly.offline import iplot, init_notebook_mode
 from plotly.subplots import make_subplots
-from statsmodels.tsa.seasonal import DecomposeResult, seasonal_decompose
+#from statsmodels.tsa.seasonal import DecomposeResult, seasonal_decompose
 
 
 from sklearn.metrics import mean_absolute_error, mean_squared_error
