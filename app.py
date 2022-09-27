@@ -373,13 +373,13 @@ elif choose == "Lstm":
 
         #load the save model
         if selected_station ==  'BAKEL':
-            model = tf.keras.models.load_model('./models/models_lstm/best_model_bakel.h5')
+            model = tf.keras.models.load_model('https://github.com/AYLY92/memoire/blob/main/data/best_model_bakel.h5')
 
         elif selected_station ==  'MATAM':
-            model = tf.keras.models.load_model('./models/models_lstm/best_model_matam.h5')
+            model = tf.keras.models.load_model('https://github.com/AYLY92/memoire/blob/main/data/best_model_matam.h5')
 
         else:
-            model = tf.keras.models.load_model('./models/models_lstm/best_model_podor.h5')
+            model = tf.keras.models.load_model('https://github.com/AYLY92/memoire/blob/main/data/best_model_podor.h5')
 
         # Prédiction
         def make_prediction(model, x_train, x_test, y_train, y_test, scaler):
